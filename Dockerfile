@@ -7,7 +7,7 @@ RUN apt-get update
 ENV TZ Asia/Tokyo
 
 RUN apt-get update
-RUN apt-get install -y sudo python3=3.9.2 python3-pip
+RUN apt-get install -y sudo python3 python3-pip
 RUN curl https://cli-assets.heroku.com/install.sh | sh
 
 WORKDIR $HOME
