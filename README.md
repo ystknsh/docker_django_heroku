@@ -10,7 +10,7 @@ Mainly for M1 Mac users.
 1. enter `127.0.0.1:8000` on your browser
 
 ## Memo
-### Enter web of docker container
+### Enter "services: web"
 1. `docker-compose up -d`
 1. `docker-compose exec web bash`
 
@@ -24,5 +24,11 @@ Mainly for M1 Mac users.
 ### Connect heroku
 `heroku login --interactive`
 
-### TODO heroku
+### Reference Article
+- [クィックスタート: Compose と Django](https://docs.docker.jp/compose/django.html)
+- [djangoとpostgresqlをDockerで接続しようとしたときに「django.db.utils.OperationalError: could not translate host name "db" to address: Name or service not known」というエラーが出る](https://qiita.com/takos/items/c04ac2a64d519894ee13)
+- [Heroku CLI](https://devcenter.heroku.com/ja/articles/heroku-cli)
+- [Django x Docker to Production on Heroku](https://www.codingforentrepreneurs.com/blog/django-docker-production-heroku/)
+## TODO
+### heroku
 - Change log_history location of heroku
